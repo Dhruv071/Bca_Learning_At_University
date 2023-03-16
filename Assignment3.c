@@ -5,7 +5,7 @@
   
 int main()  
 {  
-    int num, bin = 0, rem = 0, place = 1;  
+    int num, binary = 0, rem = 0, place = 1;  
   
     printf("Enter a decimal number\n");  
     scanf("%d", &num);  
@@ -15,10 +15,10 @@ int main()
     {  
         rem   = num % 2;  
         num   /= 2;  
-        bin   = bin + (rem * place);  
+        binary   = binary + (rem * place);  
         place = place * 10;  
     }  
-    printf("%d\n", bin);  
+    printf("%d\n", binary);  
   
     return 0;  //name - Dhruv , Roll no. - 2210997071
 }
