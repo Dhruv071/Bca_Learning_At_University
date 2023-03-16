@@ -18,5 +18,6 @@ int main()
     printf("enterd number is not valid\n");
   }
    printf("total number of valid inputs are %d",count);
-  return 0;
+  return 0;                                               // name-Dhruv , roll no. -2210997071
+}
 }
